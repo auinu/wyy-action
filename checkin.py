@@ -84,8 +84,8 @@ class AutoLogin:
         username_list = self.username.split("#")
         password_list = self.password.split("#")
         # OUTPUT 调试使用
-        self.log(username_list)
-        self.log(password_list)
+        # self.(username_list)
+        # self.log(password_list)
         if (len(username_list) != len(password_list)):
             self.log("> 帐号密码数量不匹配，密码中包含间隔符#,如果密码中包含#请更改密码，或者手动修改脚本",
                      status_code=2)
